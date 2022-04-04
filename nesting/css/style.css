@@ -1,0 +1,26 @@
+.class1 {
+  background-color: crimson;
+  padding: 15px;
+}
+.class1 ul {
+  background-color: tomato;
+  padding: 10px;
+}
+.class1 li {
+  background-color: cornflowerblue;
+  padding: 5px;
+}
+.class1 button {
+  background-color: lightblue;
+  color: darkslateblue;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+.class1 button:hover {
+  background-color: darkslateblue;
+  color: lightblue;
+  transition: 500ms;
+}
+
+/*# sourceMappingURL=style.css.map */

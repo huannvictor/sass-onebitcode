@@ -1,0 +1,25 @@
+.class1{
+  background-color: crimson;
+  padding: 15px;
+  ul{
+    background-color: tomato;
+    padding: 10px;
+  }
+  li{
+    background-color: cornflowerblue;
+    padding: 5px;
+  }
+  button{
+    background-color: lightblue;
+    color: darkslateblue;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+
+    &:hover{
+      background-color: darkslateblue;
+      color: lightblue;
+      transition: 500ms;
+    }
+  }
+}
