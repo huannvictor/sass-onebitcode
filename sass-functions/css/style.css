@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* text-color-detect()
+  * A função text-color-detect() faz com que o texto mude de cor, recebendo o valor da cor do background no argumento. 
+  * Este valor é testado no @if que retorna com o texto em preto caso a resposta seja satisfatória.
+  * Já no @else, retorna branco para resposta não-satisfatória.
+*/
+/* background-mixin()
+  * A função background-mixin() recebe $color-bg, que é a cor do background, como argumento
+  * Passa como um VALOR para ser usado na propriedade background-color
+  * Chama a função text-color-detect() na propriedade color e passa $color-bg como um ARGUMENTO da mesma 
+  * Resumindo, background-mixin() tem o objetivo de informar a cor tanto para a cor do texto (para ser mudada) quando para a cor do background para ser renderizado.
+*/
+#title {
+  padding: 50px;
+  background-color: #a1b2d1;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
